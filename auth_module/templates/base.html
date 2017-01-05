@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+	href="{% static 'css/lib/bootstrap.min.css' %}" />
+<link rel="stylesheet" type="text/css"
+	href="{% static 'css/lib/font-awesome.min.css'%}" />
+<link rel="stylesheet" type="text/css"
+	href="{% static 'css/app/style.css'%}" />
+<head />
+<body>
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="row">{% block content %}{% endblock%}</div>
+		</div>
+	</div>
+</body>
+</html>

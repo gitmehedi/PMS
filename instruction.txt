@@ -1,0 +1,17 @@
+1. Create a project folder and explore the project folder,
+	$ mkdir <project_folder_name>  # project_folder_name may be anything
+	$ cd <project_folder_name>
+
+2. Inside project_folder_name create a virtual environment,
+	$ virtualenv <virtual_env_name>
+	## virtual_env_name may be anythings depending on choice. After creating virtual env 
+
+3. Setup Django in virtual environment,
+	$ pip install Django==1.10
+
+4. Install widget-tweaks for templating 
+	$ pip install django-widget-tweaks
+	$ add 'widget_tweaks' to INSTALLED_APPS 
+	## you may use this article https://bixly.com/blog/easy-django-form-customization-using-django-widget-tweaks
+
+5. 

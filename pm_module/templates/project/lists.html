@@ -1,0 +1,66 @@
+{% extends '../doctor_base.html' %}
+
+{% block content %}
+<div class="panel panel-default">
+	<div class="panel-body">
+		<div class="col-sm-12 col-md-12">
+			<div>
+				<h3>List of Projects</h3>
+				<form class="navbar-form navbar-left pull" role="search" method="get"
+					action="{% url 'homepage' %}">
+					<div class="form-group">
+						<input type="text" class="form-control" name="q"
+							value="{{ request.GET.q }}">
+					</div>
+					<button type="submit" class="btn btn-default">Search</button>
+				</form>
+				<a class="btn btn-info pull-right" href="{% url 'create_project' %}">Create New Project</a>
+			</div>
+
+
+
+		</div>
+		
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>S.N</th>
+					<th>Title</th>
+                    <th>Client Name</th>
+					<th>Actual Start Date</th>
+					<th>Actual End Date</th>
+					<th>Actual Start Date</th>
+					<th>End Date</th>
+					<th>Description</th>
+					<th>Project Owner</th>
+                    <th>Action</th>
+				</tr>
+
+			</thead>
+			<tbody>
+				{% for list in lists %}
+				<tr>
+					<td>{{ forloop.counter }}</td>
+					<td>{{ list.title }}</td>
+					<td>{{ list.client_name}}</td>
+					<td>{{ list.actual_start_date }}</td>
+					<td>{{ list.actual_end_date }}</td>
+					<td>{{ list.start_date }}</td>
+					<td>{{ list.end_date }}</td>
+					<td>{{ list.project_owner }}</td>
+					<td><a href="{% url 'create_project' %}">{{ list.project}}</a></td>
+					<td>
+						<div class="btn-group btn-group-xs" role="group">
+							<a href="{% url 'edit_project' pk=list.id %}" class="btn btn-primary">Edit</a>
+							<a href="{% url 'delete_project' pk=list.id %}" class="btn btn-danger">Delete</a>
+						</div>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+	</div>
+</div>
+
+{% endblock %}

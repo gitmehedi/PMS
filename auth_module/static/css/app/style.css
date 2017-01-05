@@ -1,0 +1,410 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2015, 4:41:35 PM
+    Author     : mehedi
+*/
+
+body {
+    background: white url("../../images/background.png");
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
+}
+
+/*
+	Above code collected from viberr site
+*/
+
+.set{
+    color:green;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.un-set{
+    color:red;
+    font-size: 1.5em;
+    text-align: center;
+}
+.asc:after,.desc:after{
+    position: relative;
+    font-family: FontAwesome;
+    top: 0px;
+    left:5px;
+    color: green;
+    font-size: 1em;
+}
+.asc:after{
+    content: "\f107";body {
+    background: white url("images/background.png");
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
+}
+}
+.desc:after{
+    content: "\f106";
+}
+
+
+table thead th a, 
+table thead th a:hover {
+    text-decoration: none;
+}
+/* margin */
+.mar-top-5{ margin-top: 5px;}
+.mar-top-10{ margin-top: 10px;}
+.mar-top-15{ margin-top: 15px;}
+.mar-top-20{ margin-top: 20px;}
+.mar-top-25{ margin-top: 25px;}
+.mar-top-30{ margin-top: 30px;}
+.mar-top-35{ margin-top: 35px;}
+.mar-top-40{ margin-top: 40px;}
+.mar-top-45{ margin-top: 45px;}
+.mar-top-50{ margin-top: 50px;}
+
+.mar-right-5{ margin-right: 5px;}
+.mar-right-10{ margin-right: 10px;}
+.mar-right-15{ margin-right: 15px;}
+.mar-right-20{ margin-right: 20px;}
+.mar-right-25{ margin-right: 25px;}
+.mar-right-30{ margin-right: 30px;}
+.mar-right-35{ margin-right: 35px;}
+.mar-right-40{ margin-right: 40px;}
+.mar-right-45{ margin-right: 45px;}
+.mar-right-50{ margin-right: 50px;}
+
+.mar-btm-5{ margin-bottom: 5px;}
+.mar-btm-10{ margin-bottom: 10px;}
+.mar-btm-15{ margin-bottom: 15px;}
+.mar-btm-20{ margin-bottom: 20px;}
+.mar-btm-25{ margin-bottom: 25px !important;}
+.mar-btm-30{ margin-bottom: 30px;}
+.mar-btm-35{ margin-bottom: 35px;}
+.mar-btm-40{ margin-bottom: 40px;}
+.mar-btm-45{ margin-bottom: 45px;}
+.mar-btm-50{ margin-bottom: 50px;}
+
+
+/*================ Login and Authentication Styles =======================*/
+
+body {
+    /*background: #e9e9e9;*/
+    font-family: 'Roboto', sans-serif;
+    /*text-align: center;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.form {
+    position: relative;
+    background: #ffffff;
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 40px;
+    border-top: 5px solid  #dd4814;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+.form .switch {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:  #dd4814;
+    width: 30px;
+    height: 30px;
+    margin: -5px 0 0;
+    -webkit-border-radius: 0 3px 0 3px;
+    -moz-border-radius: 0 3px 0 3px;
+    border-radius: 0 3px 0 3px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.form .switch .tooltip {
+    position: absolute;
+    top: 5px;
+    right: -65px;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    width: auto;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form .switch .tooltip:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    display: block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid rgba(0, 0, 0, 0.6);
+}
+.form .register {
+    display: none;
+}
+.form h2 {
+    margin: 0 0 20px;
+    line-height: 1;
+    color:  #dd4814;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form .alert {
+    position: relative;
+    background: red;
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+}
+.form .alert .fa-times-circle {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -8px;
+    float: right;
+}
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    border: 1px solid #d9d9d9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ccc;
+    font-family: "Roboto";
+    -webkti-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-wieght: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.form input:focus {
+    color: #333333;
+    border: 1px solid  #dd4814;
+}
+.form button {
+    cursor: pointer;
+    background:  #dd4814;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.form button:hover {
+    background: #97310E;
+}
+.form footer {
+    background: #f2f2f2;
+    width: 125%;
+    padding: 15px 40px;
+    margin: 0 0 -40px -40px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+}
+.form footer a {
+    color: #333333;
+    text-decoration: none;
+    width: 100%;
+}
+.info {
+    width: 300px;
+    margin: 25px auto;
+    text-align: center;
+}
+.info h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+.info span {
+    color: #666666;
+    font-size: 12px;
+}
+.info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.info span .fa {
+    color:  #dd4814;
+}
+.info span .spoilers {
+    color: #999999;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+/*================ END =======================*/
+
+.products{
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #dd4814;
+    padding-bottom: 20px;
+    /*box-shadow: 1px -1px .5px 2px red;*/
+}
+.p-img{
+    background-color: yellow;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 133px;
+}
+.p-img a{
+    /*line-height: 100px;*/
+}
+
+.products{
+
+}
+.p-thumb{
+    margin: 0px auto ;
+}
+.p-desc{
+    margin-left: 20px
+}
+.p-value{
+    margin-top: 5px;
+}
+.img-thumb{
+    width: 100px;
+    height: 100px;
+    margin: 5px 20px 0px 0px;
+    background-color: #ffffff;
+    padding: 4px;
+
+}
+.p-desc h3{
+    margin-top: 5px;
+}
+
+.form-center{
+	top: 100px;
+}
+
+/*================ Image Decoration =======================*/
+/*#file-upload+.col-sm-6{
+    height: 200px;
+    width: 200px;
+}
+
+#file-upload+.col-sm-6:before {
+
+    background-color: yellowgreen;
+    content: url(http://indianapublicmedia.org/stateimpact/files/2013/01/apple-image-300x300.jpg);
+    cursor: pointer;
+    border: 2px solid red;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#file-upload+.col-sm-6 input {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: inline;
+    cursor: pointer;
+    opacity: 0;
+}
+#file-upload{
+    display: none;
+}*/
+/*================ END =======================*/

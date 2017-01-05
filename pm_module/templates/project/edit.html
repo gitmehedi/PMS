@@ -1,0 +1,27 @@
+{% extends '../doctor_base.html' %} 
+
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="btn-group btn-group-xs" role="group">
+			<a class="btn btn-info" href="{% url 'homepage' %}">Lists</a>
+		</div>
+
+		<div class="col-sm-12 col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h3>Edit a Project</h3>
+					{% include 'pages/error_msg.html' %}
+					<form class="form-horizontal" role="form" action="{% url 'edit_project' pk=pk %}" method="post"
+						enctype="multipart/form-data">
+						{% csrf_token %} {% include '../form_template.html' %}
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+{% endblock %}
